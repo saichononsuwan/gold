@@ -1654,7 +1654,7 @@
                 // Check if LIFF is available
                 if (typeof liff !== 'undefined') {
                     // Initialize LIFF in background
-                    liff.init({ liffId: LIFF_ID || 'demo' }).then(() => {
+                    liff.init({ liffId: LIFF_ID_A || 'demo' }).then(() => {
                         if (liff.isLoggedIn()) {
                             addLog('LIFF initialized and user logged in', 'success');
                             // Reload data with real user
